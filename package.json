@@ -8,5 +8,8 @@
     "dev:api": "npm run start:dev --workspace apps/api",
     "lint": "npm run lint --workspaces --if-present",
     "test": "npm test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.9"
   }
 }
