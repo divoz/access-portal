@@ -1,0 +1,12 @@
+{
+  "name": "access-portal",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run start:dev --workspace apps/api",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm test --workspaces --if-present"
+  }
+}
